@@ -1,8 +1,10 @@
-# Steps for this project (windows 10)
+# Step by step guide
+
+This is a small project I made that uses Lumen, firebase/php-jwt library for authentication and authorization through middleware, database migrations and seeding. I let you bellow the steps you have to take to get running a project like this one.
 
 ## Prerequisites
 
-1. Install Wamp and you're done
+1. Install Wamp and you're done (I'm using Windows 10)
 2. Text editor of your choice (VSCode)
 
 ## Steps
@@ -68,7 +70,7 @@
 23. Play with Postman:
 
     > POST: http://localhost:8000/auth/login    
-    > Body: {"login":"user_from_database_or_email","password":"user_password"}
+    > Body: {"login":"user_from_database_or_email","dumbpassword":"user_password"}
     > Headers: Content-Type application/json
 
     then
