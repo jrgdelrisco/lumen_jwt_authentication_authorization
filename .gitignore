@@ -1,0 +1,5 @@
+the_project/vendor
+the_project/.idea
+the_project/Homestead.json
+the_project/Homestead.yaml
+the_project/.env
