@@ -69,6 +69,8 @@ This is a small project I made that uses Lumen, firebase/php-jwt library for aut
 
 23. Play with Postman:
 
+    > php -S localhost:8000 -t .\public\
+
     > POST: http://localhost:8000/auth/login    
     > Body: {"login":"user_from_database_or_email","dumbpassword":"user_password"}
     > Headers: Content-Type application/json

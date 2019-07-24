@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Validator;
 use Firebase\JWT\JWT;
 use Illuminate\Http\Request;
-use Firebase\JWT\ExpiredException;
 use Illuminate\Support\Facades\Hash;
 use Laravel\Lumen\Routing\Controller;
 use App\User;
@@ -32,7 +30,7 @@ class AuthController extends Controller
         $this->request = $request;
     }
 
-    public function userAuthenticate(User $user)
+    public function userAuthenticate()
     {
         $this->validate($this->request, [
             'login'     => 'required',
